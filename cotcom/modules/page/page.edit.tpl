@@ -397,14 +397,14 @@
             </div>
           </div>
           <div class="list-group list-group-flush">
-              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id='$this, '#heading_m_general_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_general_info}</a>
-              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id='$this, '#heading_m_meta_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_meta_info}</a>
-              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id='$this, '#heading_m_datatime_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_datatime_info}</a>
-              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id='$this, '#heading_m_adminsection_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_adminsection_info}</a>
-              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id='$this, '#heading_m_mainpagecontent_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_mainpagecontent_info}</a>
-              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id='$this, '#heading_m_filesdownloads_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_filesdownloads_info}</a>
-              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id='$this, '#heading_m_tages_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_tages_info}</a>
-              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id='$this, '#heading_m_pagemanagement_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_pagemanagement_info}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id=$this', '#heading_m_general_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_general_info}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id=$this', '#heading_m_meta_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_meta_info}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id=$this', '#heading_m_datatime_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_datatime_info}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id=$this', '#heading_m_adminsection_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_adminsection_info}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id=$this', '#heading_m_mainpagecontent_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_mainpagecontent_info}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id=$this', '#heading_m_filesdownloads_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_filesdownloads_info}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id=$this', '#heading_m_tages_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_tages_info}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('page', 'm=edit&id=$this', '#heading_m_pagemanagement_info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.page.m_pagemanagement_info}</a>
           </div>
         </div>
       </div>

@@ -90,7 +90,7 @@
                     </a>
 					<!-- ELSE -->
                     <!-- IF {PHP.usr.maingrp} == 5 OR {PHP.usr.isadmin} -->
-                    <a href="{USERS_DETAILS_ID|cot_url('users','m=edit&id='$this)}" class="btn btn-primary btn-icon" data-bs-toggle="tooltip" data-bs-title="{PHP.L.Edit}">
+                    <a href="{USERS_DETAILS_ID|cot_url('users','m=edit&id=$this')}" class="btn btn-primary btn-icon" data-bs-toggle="tooltip" data-bs-title="{PHP.L.Edit}">
                       <span class="btn-inner--icon">
                         <i class="fa-solid fa-user-pen me-2"></i>
                       </span>

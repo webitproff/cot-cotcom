@@ -275,11 +275,11 @@
             </div>
           </div>
             <div class="list-group list-group-flush">
-              <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id='$this, '#general-info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.usersedit.usergeneral-info}</a>
-			  <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id='$this, '#security')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.Security}</a>
-			  <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id='$this, '#locale')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.Locale}</a>
-			  <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id='$this, '#avatar-foto')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.usersedit.avatar-foto}</a>
-              <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id='$this, '#signature')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.Signature}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id=$this', '#general-info')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.usersedit.usergeneral-info}</a>
+			  <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id=$this', '#security')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.Security}</a>
+			  <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id=$this', '#locale')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.Locale}</a>
+			  <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id=$this', '#avatar-foto')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.usersedit.avatar-foto}</a>
+              <a data-easing="linear" href="{PHP.id|cot_url('users', 'm=edit&id=$this', '#signature')}" class="list-group-item list-group-item-action" data-scroll>{PHP.L.Signature}</a>
             </div>
         </div>
       </div>

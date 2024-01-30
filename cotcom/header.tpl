@@ -1,6 +1,6 @@
 <!-- BEGIN: HEADER -->
 <!DOCTYPE html>
-<html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml" lang="{PHP.lang}" class="no-js">
+<html lang="{PHP.lang}" class="no-js">
   <head>
     <title>{HEADER_TITLE}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,6 +34,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3c202149f5.js" crossorigin="anonymous"></script> {HEADER_COMPOPUP}
+	<meta name="hdvb" content="da3c7e8fbf2b8f73f6d489d5056799d6:c6d9e4a40c16014f6a49bb056ca809f6" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark z-index-3 navbar-head-cot">
@@ -291,7 +292,7 @@
                       <i class="fas fa-sliders-h fa-fw me-2"></i>{PHP.L.Profile} </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="{PHP.usr.name|cot_url('users', 'm=details&u='$this)}">
+                    <a class="dropdown-item" href="{PHP.usr.name|cot_url('users', 'm=details&u=$this')}">
                       <i class="fa-solid fa-id-card-clip me-2"></i>{PHP.L.userdetails.PersnAcc} </a>
                   </li>
                   <!-- IF {PHP.cot_modules.pfs} -->

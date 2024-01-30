@@ -61,7 +61,7 @@
 				<td>
 					<h4><a href="{FORUMS_TOPICS_ROW_URL}">{FORUMS_TOPICS_ROW_TITLE}</a></h4>
 					<!-- IF {FORUMS_TOPICS_ROW_DESC} --><span class="desc">{FORUMS_TOPICS_ROW_DESC}</span><br/><!-- ENDIF -->
-					<span>{FORUMS_TOPICS_ROW_CREATIONDATE}: {FORUMS_TOPICS_ROW_FIRSTPOSTER} &nbsp; </span>
+					<span>{FORUMS_TOPICS_ROW_CREATIONDATE}: begin- {FORUMS_TOPICS_ROW_FIRSTPOSTER} &nbsp; </span>
 				</td>
 				<td class="pages">{FORUMS_TOPICS_ROW_PAGES}</td>
 				<td class="center">{FORUMS_TOPICS_ROW_POSTCOUNT}</td>

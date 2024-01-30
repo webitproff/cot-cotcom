@@ -1,13 +1,13 @@
 <?php
 /* ====================
 [BEGIN_COT_THEME]
-Name=Cotonti.com
+Name=Cotcom by webitproff
 Schemes=default:Default
 [END_COT_THEME]
 ==================== */
 
 /**
- * Cotonti.com official theme
+ * Cotonti official theme
  *
  * @package Cotonti
  * @version 1.1.0

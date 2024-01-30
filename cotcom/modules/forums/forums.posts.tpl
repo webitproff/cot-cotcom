@@ -124,6 +124,9 @@
                     </div>
                   </div>
                   <h4 class="text-center ff-monts text-dark-cot fw-bold pt-2 mb-0">{FORUMS_POSTS_ROW_USERNAME} </h4>
+<!-- IF {PHP.rowt.ft_firstposterid}  ==  {PHP.row.user_id} -->
+<h6 class="text-center ff-monts text-dark-cot fw-bold pt-2 mb-0">Создатель темы</h6>
+<!-- ENDIF -->
                 </div>
                 <div class="list-group-item p-0">
                   <p class="text-center text-lg-start py-0 my-0"> {FORUMS_POSTS_ROW_USERMAINGRP}</p>

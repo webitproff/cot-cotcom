@@ -98,7 +98,7 @@ $L['index']['PrevReleases'] = 'Previous releases';
 $L['index']['RecentAdditions'] = 'Recent additions';
 $L['index']['RecentForumPosts'] = 'Recent forum posts';
 $L['index']['ReleaseNotes'] = 'Release notes';
-$L['index']['Tagline'] = 'Cotonti is a powerful open-source web development framework and content manager with a focus on security, speed and flexibility.';
+$L['index']['Tagline'] = 'A modern, PHP 8.2 compatible, powerful web development framework and an open source content management tool aimed at security, speed and extensibility.';
 $L['index']['WhyChoose'] = 'Why choose Cotonti?';
 
 $L['footer']['Features'] = 'Features';

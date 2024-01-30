@@ -109,7 +109,7 @@
                 <a class="mt-3 list-group-item list-group-item-action" href="{PAGE_CAT|cot_url('page','m=add&c=$this')}">{PHP.L.page_addtitle}</a>
                 <!-- ENDIF -->
                 <!-- IF {PHP.usr.id} == {PAGE_OWNER_ID} OR {PHP.usr.isadmin} OR {PHP.usr.maingrp} == 5 -->
-                <a class="list-group-item list-group-item-action" href="{PAGE_ID|cot_url('page','m=edit&id='$this)}">{PHP.L.Edit}</a>
+                <a class="list-group-item list-group-item-action" href="{PAGE_ID|cot_url('page','m=edit&id=$this')}">{PHP.L.Edit}</a>
                 <!-- ENDIF -->
                 <!-- IF {PHP.usr.isadmin} OR {PHP.usr.maingrp} == 5 -->
                 <div class="list-group-item list-group-item-action"> {PAGE_ADMIN_UNVALIDATE} </div>
@@ -209,7 +209,7 @@
                 <!-- ENDIF -->
                 <!-- IF {PHP.usr.id} == {PAGE_OWNER_ID} OR {PHP.usr.isadmin} OR {PHP.usr.maingrp} == 5 -->
                 <div class="list-group-item list-group-item-action px-0">
-				<a class="" href="{PAGE_ID|cot_url('page','m=edit&id='$this)}">{PHP.L.Edit}</a>
+				<a class="" href="{PAGE_ID|cot_url('page','m=edit&id=$this')}">{PHP.L.Edit}</a>
 				</div>
                 <!-- ENDIF -->
                 <!-- IF {PHP.usr.isadmin} OR {PHP.usr.maingrp} == 5 -->
