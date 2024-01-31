@@ -7,13 +7,19 @@ Schemes=default:Default
 ==================== */
 
 /**
- * Cotonti official theme
+ * Cotonti Model Theme
  *
- * @package Cotonti
- * @version 1.1.0
- * @author Koradhil / Stam
- * @copyright Cotonti Team
+ * @package Cotcom
+ * @author webitproff
+ * @copyright Copyright (c) 2022-2024 Cotonti Team, webitproff
+ * @license BSD
  */
+
+/**
+ * @github public Repository https://github.com/webitproff/cot-cotcom
+ * Self-Support of the template on the forum: https://abuyfile.com/forums/cotonti/original/skins/tpl-free/topic25
+ */
+
 
 defined('COT_CODE') or die('Wrong URL');
 
