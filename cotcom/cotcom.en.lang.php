@@ -1,5 +1,9 @@
 <?php
 /**
+ * Custom Template English localization file
+ * This file is intended for additional custom localization strings
+ */
+/**
  * Cotonti Model Theme
  *
  * @package Cotcom
