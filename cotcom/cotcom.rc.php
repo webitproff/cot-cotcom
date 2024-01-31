@@ -1,13 +1,23 @@
 <?php
 /**
- * JavaScript and CSS loader for Cotonti.com theme
+ * JavaScript and CSS loader
+ */
+
+/**
+ * Cotonti Model Theme
  *
- * @package cotcom
+ * @package Cotcom
  * @version 1.0.0
- * @author Koradhil & Trustmaster
- * @copyright Copyright (c) Cotonti Team 2011 - 2022
+ * @author webitproff
+ * @copyright Copyright (c) 2022-2024 Cotonti Team, webitproff
  * @license BSD
  */
+
+/**
+ * @github public Repository https://github.com/webitproff/cot-cotcom
+ * Self-Support and topic of discussion this template on the forum: https://abuyfile.com/forums/cotonti/original/skins/tpl-free/topic25
+ */
+
 
 defined('COT_CODE') or die('Wrong URL.');
 

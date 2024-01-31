@@ -1,4 +1,22 @@
 <?php
+/**
+ * Пользовательский файл русской локализации шаблона
+ * Данный файл предназначен для дополнительных пользовательских локализационных строк
+ */
+/**
+ * Cotonti Model Theme
+ *
+ * @package Cotcom
+ * @version 1.0.0
+ * @author webitproff
+ * @copyright Copyright (c) 2022-2024 Cotonti Team, webitproff
+ * @license BSD
+ */
+
+/**
+ * @github public Repository https://github.com/webitproff/cot-cotcom
+ * Self-Support and topic of discussion this template on the forum: https://abuyfile.com/forums/cotonti/original/skins/tpl-free/topic25
+ */
 
 defined('COT_CODE') or die('Wrong URL.');
 

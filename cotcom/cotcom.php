@@ -10,6 +10,7 @@ Schemes=default:Default
  * Cotonti Model Theme
  *
  * @package Cotcom
+ * @version 1.0.0
  * @author webitproff
  * @copyright Copyright (c) 2022-2024 Cotonti Team, webitproff
  * @license BSD
@@ -17,7 +18,7 @@ Schemes=default:Default
 
 /**
  * @github public Repository https://github.com/webitproff/cot-cotcom
- * Self-Support of the template on the forum: https://abuyfile.com/forums/cotonti/original/skins/tpl-free/topic25
+ * Self-Support and topic of discussion this template on the forum: https://abuyfile.com/forums/cotonti/original/skins/tpl-free/topic25
  */
 
 

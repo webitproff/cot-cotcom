@@ -1,4 +1,18 @@
 <?php
+/**
+ * Cotonti Model Theme
+ *
+ * @package Cotcom
+ * @version 1.0.0
+ * @author webitproff
+ * @copyright Copyright (c) 2022-2024 Cotonti Team, webitproff
+ * @license BSD
+ */
+
+/**
+ * @github public Repository https://github.com/webitproff/cot-cotcom
+ * Self-Support and topic of discussion this template on the forum: https://abuyfile.com/forums/cotonti/original/skins/tpl-free/topic25
+ */
 
 $R['code_title_page_num'] = ' (' . cot::$L['Page'] . ' {$num})';
 $R['link_pagenav_current'] = '<li class="page-item active"><a class="page-link link-white" href="{$url}"{$event}{$rel}>{$num}</a></li>';
